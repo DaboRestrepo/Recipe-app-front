@@ -1,0 +1,458 @@
+@font-face {
+    font-family: 'MonsterClubhouse';
+    src: url('../public/Monster_Clubhouse.ttf');
+}
+
+/* iPhone 12 Pro Max – 1: 428px */
+nav {display: none;}
+.line-box .footer-img-big {display: none;}
+.img-back .bcq-big {display: none;}
+.box-recipe .hover {display: none;}
+.font1 {
+    /* Layout properties */
+    top: 14px;
+    left: 70px;
+    width: 152px;
+    height: 40px;
+    /* UI Properties */
+    color: #425966;
+    text-align: left;
+    font: normal normal normal 40px/48px 'MonsterClubhouse';
+    letter-spacing: 1.15px;
+    font-size: 40px;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.font2 {
+    /* Layout properties */
+    top: 14px;
+    left: 173px;
+    width: 78px;
+    height: 43px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 30px/46px 'Poppins';
+    letter-spacing: 0.86px;
+    color: #D84A4A;
+    opacity: 1;
+}
+
+.font3 {
+    /* Layout properties */
+    margin-top: 0%;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 51px/77px 'Poppins';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.font4 {
+    /* Layout properties */
+    margin-bottom: 0%;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 51px/61px 'MonsterClubhouse';
+    color: #FFFFFF;
+}
+
+header {
+    margin-left: 30px;
+}
+
+.img-back .bcq {
+    /* layout Properties */
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: -130px;
+    width: 720px;
+    height: 234px;
+    /* UI Properties */
+    opacity: 1;
+}
+.img-back .bcq img {
+    width: 100%;
+    height: fit-content;
+}
+
+.div-text {
+    position: absolute;
+    top: 170px;
+    left: 160px;
+    right: 60px;
+    transform: translate(-50%, -50%);
+    line-height: 0;
+}
+
+.Box-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    align-content: center;
+    top: 280px;
+    left: 30px;
+}
+
+.vegie {
+    background: transparent url('../public/images/carrots.png') no-repeat padding-box;
+    background-position: 40% 30%;
+}
+
+.ppal {
+    background: transparent url('../public/images/ppal.png') no-repeat padding-box;
+    background-position: 50% 30%;
+}
+
+.tortas {
+    background: transparent url('../public/images/tortas.png') no-repeat padding-box;
+    background-position: 50% 30%;
+}
+
+.rápida {
+    background: transparent url('../public/images/rapida.png') no-repeat padding-box;
+    background-position: 50% 30%;
+}
+
+.niños {
+    background: transparent url('../public/images/niños.png') no-repeat padding-box;
+    background-position: 50% 30%;
+}
+
+.sopas {
+    background: transparent url('../public/images/sopas.png') no-repeat padding-box;
+    background-position: 50% 30%;
+}
+
+.box {
+    /* Layout Properties */
+    width: 100px;
+    height: 92px;
+    /* UI Properties */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: transparent linear-gradient(180deg, #E9F1FA 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 9px #8395A766;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.Box-container p {
+    /* Layout Properties */
+    margin-top: 65px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal medium 13px/20px Poppins;
+    letter-spacing: 0px;
+    color: #425966;
+    opacity: 1;
+}
+
+.nuevas-recetas {
+    margin-top: 250px;
+    justify-items: center;
+}
+
+.nuevas-recetas h2 {
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 54px/65px 'MonsterClubhouse';
+    color: #D84A4A;
+    margin: auto;
+}
+
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 240px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin-top: 5px;
+    padding-top: 30px;
+}
+
+.box-recipe {
+    /* Layout properties */
+    width: 179px;
+    height: 181px;
+    /* UI Properties */
+    position: relative;
+    background: transparent linear-gradient(180deg, #E9F1FA 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 9px #8395A766;
+    border-radius: 10px;
+    opacity: 1;
+    flex: 0 0 40%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    margin: 20px;
+    margin-top: 20px;
+    opacity: 1;
+}
+
+.box-recipe .image img {
+    padding: 8px;
+    width: 120px;
+}
+
+.box-recipe .image-cherries img {
+    padding: 8px;
+    width: 100px;
+}
+
+.box-recipe .image {
+    position: relative;
+    margin: auto;
+    top: -50px;
+    text-align: center;
+}
+
+.box-recipe .image-cherries {
+    position: relative;
+    margin: auto auto 20px auto;
+    top: -47px;
+    text-align: center;
+}
+
+.box-recipe .heart-img {
+    display: flex;
+    float: right;
+    width: 30px;
+    margin-top: 5px;
+}
+
+.box-recipe .star-img {
+    display: flex;
+    float: left;
+    margin: auto 10px 10px;
+    font: normal normal normal 17px/26px 'Poppins';
+    color: #425966;
+}
+
+.box-recipe .star-img img {
+    width: 17px;
+    height: 17px;
+    margin-top: 4px;
+}
+
+.box-recipe p {
+    font: normal normal normal 20px/24px 'Poppins';
+    letter-spacing: -0.4px;
+    color: #D84A4A;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.box-recipe p .word-2 {
+    font: normal normal normal 20px/24px 'MonsterClubhouse';
+}
+
+.line-box {
+    width: 100%;
+    height: 70px;
+    background: transparent linear-gradient(180deg, #C2E3F3 0%, #6AA3C1 100%) 0% 0% no-repeat padding-box;
+}
+
+.line-box .footer-img {
+    display: flex;
+    float: right;
+    width: 228px;
+    height: 106px;
+}
+
+.line-box p {
+    display: flex;
+    text-align: left;
+    margin: auto;
+    padding: 25px 5px 10px;
+    font: normal normal normal 23px/28px 'MonsterClubhouse';
+    color: #425966;
+}
+
+/* iPad, Nexus 9 – 1: 768 */
+@media only screen and (min-width: 768px) {
+    nav {display: none;}
+    .img-back .bcq-big {display: none;}
+    .line-box .footer-img-big {display: none;}
+    .img-back .bcq {
+        width: 1000px;
+        height: 300px;
+        background-size: 100% 100%;
+    }
+    .img-back .bcq img {
+        width: 100%;
+        height: fit-content;
+    }
+    .img-back .div-text {
+        top: 150px;
+        right: 150px;
+        left: 500px;
+        line-height: 0%;
+    }
+    .img-back .div-text {margin: 40px -130px;}
+    .img-back .div-text .font3 {font: normal normal normal 74px/111px 'Poppins';}
+    .img-back .div-text .font4 {font: normal normal normal 67px/80px 'MonsterClubhouse';}
+    .Box-container {margin-top: 45px;}
+    .nuevas-recetas {margin: 70px 60px 10px;}
+    .nuevas-recetas h2 {text-align: left;}
+    .box-recipe {
+        width: 266px;
+        height: 270px;
+        margin: 20px;
+    }
+    .slider-container {height: 320px;}
+    .box-recipe .image {top: -70px;}
+    .box-recipe .image img { width: 70%;}
+    .box-recipe .image-cherries img {
+        width: 53%;
+        margin-bottom: 25px;
+    }
+    .box-recipe p .word-1 {
+        font: normal normal normal 30px/36px 'Poppins';
+        margin-top: -70px;    
+    }
+    .box-recipe p .word-2 {font: normal normal normal 30px/36px 'MonsterClubhouse';}
+    .box-recipe .star-img {font: normal normal normal 26px/39px 'Poppins';}
+    .box-recipe .star-img img {
+        width: 23px;
+        height: 23px;
+    }
+    .box-recipe .heart-img img {
+        width: 19px;
+        height: 17px;
+    }
+    .line-box {
+        width: 771px;
+        height: 116px;
+    }
+    .line-box .footer-img {
+        width: 379px;
+        height: 175px;
+        margin-top: -30px;
+    }
+    .line-box .footer-img img {
+        width: 100%;
+        height: max-content;
+    }
+    .line-box p {
+        font: normal normal normal 39px/47px 'MonsterClubhouse';
+        margin: auto 50px;
+    }
+}
+
+/* PC: 1279*/ 
+@media only screen and (min-width: 1279px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .line-box .footer-img {display: none;}
+    .img-back .bcq {display: none;}
+    nav {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 20px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 50px;
+        padding: 18px;
+    }
+    nav ul li {
+        float: right;
+        margin: 20px;
+        font-family: 'Poppins';
+        font-size: medium;
+        letter-spacing: 0px;
+        color: #425966;
+    }
+    nav ul li:hover {color: #D84A4A;}
+    .img-back .bcq-big {
+        display: flex;
+        position: relative;
+        width: 1280px;
+        height: 416px;
+        margin: 20px auto;
+    }
+    .img-back .bcq-big img {
+        width: 100%;
+        height: max-content;
+    }
+    .Box-container {display: none;}
+    .div-text {
+        margin: 80px -80px;
+        width: 300px;
+        height: 79px;
+    }
+    .div-text .font3 {font: normal normal normal 74px/111px 'Poppins';}
+    .div-text .font4 {font: normal normal normal 67px/80px 'MonsterClubhouse';}
+    .nuevas-recetas {margin: auto 60px;}
+    .nuevas-recetas h2 {font: normal normal normal 67px/80px 'MonsterClubhouse';}
+    .slider-container {
+        overflow-y: visible;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: row;
+        height: 440px;
+        justify-content: center;
+    }
+    .box-recipe {
+        flex: 0 0 20%;
+        width: 266px;
+        height: 270px;
+    }
+    .box-recipe .image img {width: 82%;}
+    .box-recipe .image-cherries img {width: 65%;}
+    .box-recipe p {margin: -80px auto 10px;}
+    .box-recipe:hover {
+        width: 266px;
+        height: 386px;
+    }
+    .box-recipe:hover > .star-img {display: none;}
+    .box-recipe:hover > .heart-img {display: none;}
+    .box-recipe:hover > p {display: none;}
+    .box-recipe:hover > .hover {
+        display: flex;
+        flex-direction: column;
+        margin-top: -40px;
+    }
+    .box-recipe:hover > .hover div {margin: 37px;}
+    .box-recipe:hover > .hover p .font5 {font: normal normal normal 17px/20px 'MonsterClubhouse';}
+    .box-recipe:hover > .hover p .font6 {
+        font: normal normal normal 15px/20px 'Poppins';
+        color: #425966;
+        letter-spacing: 0px;
+        line-height: 0px;
+    }
+    .box-recipe:hover > .hover .gorro {
+        justify-content: center;
+    }
+    .line-box {
+        width: 1279px;
+        height: 167px;
+        margin: 50px auto auto;
+    }
+    .line-box .footer-img-big {
+        display: flex;
+        float: right;
+        width: 536px;
+        height: 248px;
+        margin: -40px 58px auto;
+    }
+    .line-box .footer-img-big img {
+        width: 100%;
+        height: max-content;
+    }
+    .line-box p {
+        font: normal normal normal 56px/67px 'MonsterClubhouse';
+        padding: 50px 105px;
+    }
+}
