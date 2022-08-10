@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Recipe-app-front/static/css/main.f78c95e1.css",
+    "main.css": "/Recipe-app-front/static/css/main.f453bc7d.css",
     "main.js": "/Recipe-app-front/static/js/main.02d73588.js",
     "static/js/787.28cb0dcd.chunk.js": "/Recipe-app-front/static/js/787.28cb0dcd.chunk.js",
     "static/media/bcq-big.png": "/Recipe-app-front/static/media/bcq-big.a42def8eb01ab4fb8d8a.png",
@@ -12,12 +12,12 @@
     "static/media/Roast-carrot.png": "/Recipe-app-front/static/media/Roast-carrot.42085071dad0d51aa3a3.png",
     "static/media/Monster_Clubhouse.ttf": "/Recipe-app-front/static/media/Monster_Clubhouse.526c6ff9781ae1c36baf.ttf",
     "index.html": "/Recipe-app-front/index.html",
-    "main.f78c95e1.css.map": "/Recipe-app-front/static/css/main.f78c95e1.css.map",
+    "main.f453bc7d.css.map": "/Recipe-app-front/static/css/main.f453bc7d.css.map",
     "main.02d73588.js.map": "/Recipe-app-front/static/js/main.02d73588.js.map",
     "787.28cb0dcd.chunk.js.map": "/Recipe-app-front/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f78c95e1.css",
+    "static/css/main.f453bc7d.css",
     "static/js/main.02d73588.js"
   ]
 }
