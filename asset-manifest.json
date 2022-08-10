@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/Recipe-app-front/static/css/main.869a80a2.css",
-    "main.js": "/Recipe-app-front/static/js/main.ed2a1ada.js",
+    "main.css": "/Recipe-app-front/static/css/main.f78c95e1.css",
+    "main.js": "/Recipe-app-front/static/js/main.02d73588.js",
     "static/js/787.28cb0dcd.chunk.js": "/Recipe-app-front/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bcq-big.png": "/Recipe-app-front/static/media/bcq-big.a42def8eb01ab4fb8d8a.png",
+    "static/media/bcq.png": "/Recipe-app-front/static/media/bcq.6c446ae8536fa504daeb.png",
+    "static/media/footer-big.png": "/Recipe-app-front/static/media/footer-big.af18775783080701b2c0.png",
+    "static/media/Sheet-cherries.png": "/Recipe-app-front/static/media/Sheet-cherries.718f9e99e636163dace5.png",
+    "static/media/Ojingeo-big.png": "/Recipe-app-front/static/media/Ojingeo-big.aa880f9140bb0bb7805e.png",
+    "static/media/Cola-chicken.png": "/Recipe-app-front/static/media/Cola-chicken.d45911ad88f109cd8f29.png",
+    "static/media/Roast-carrot.png": "/Recipe-app-front/static/media/Roast-carrot.42085071dad0d51aa3a3.png",
     "static/media/Monster_Clubhouse.ttf": "/Recipe-app-front/static/media/Monster_Clubhouse.526c6ff9781ae1c36baf.ttf",
     "index.html": "/Recipe-app-front/index.html",
-    "main.869a80a2.css.map": "/Recipe-app-front/static/css/main.869a80a2.css.map",
-    "main.ed2a1ada.js.map": "/Recipe-app-front/static/js/main.ed2a1ada.js.map",
+    "main.f78c95e1.css.map": "/Recipe-app-front/static/css/main.f78c95e1.css.map",
+    "main.02d73588.js.map": "/Recipe-app-front/static/js/main.02d73588.js.map",
     "787.28cb0dcd.chunk.js.map": "/Recipe-app-front/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.869a80a2.css",
-    "static/js/main.ed2a1ada.js"
+    "static/css/main.f78c95e1.css",
+    "static/js/main.02d73588.js"
   ]
 }
